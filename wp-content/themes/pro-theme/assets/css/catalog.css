@@ -33,7 +33,7 @@
 .psychic-grid--sm{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
 
 .psychic-card{background:var(--clr-surface);border:1px solid var(--clr-border);border-radius:var(--r-xl);overflow:hidden;transition:all var(--dur) var(--ease)}
-.psychic-card:hover{border-color:var(--clr-accent);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.3)}
+.psychic-card:hover{border-color:var(--clr-accent);transform:translateY(-2px);box-shadow:0 12px 28px -12px rgba(24,18,50,0.22)}
 .psychic-card__link{display:block;text-decoration:none;color:inherit}
 
 .psychic-card__photo{position:relative;width:100%;aspect-ratio:1;background:var(--clr-bg);overflow:hidden}
@@ -53,10 +53,10 @@
 .psychic-card__readings{color:var(--clr-dim)}
 
 /* ── Tags / Badges ───────────────────────────────────────────── */
-.tag{display:inline-block;padding:2px 8px;font-size:var(--fs-xs);border-radius:var(--r-full);background:rgba(255,255,255,0.06);color:var(--clr-muted);border:1px solid var(--clr-border);white-space:nowrap}
+.tag{display:inline-block;padding:2px 8px;font-size:var(--fs-xs);border-radius:var(--r-full);background:rgba(24,18,50,0.04);color:var(--clr-muted);border:1px solid var(--clr-border);white-space:nowrap}
 .tag--link{transition:all var(--dur)}
 .tag--link:hover{border-color:var(--clr-accent);color:var(--clr-accent)}
-.tag--skill{background:rgba(251,191,36,0.08);border-color:rgba(251,191,36,0.2)}
+.tag--skill{background:rgba(201,162,92,0.12);border-color:rgba(201,162,92,0.34);color:var(--clr-gold-bright)}
 
 /* ── Price Tag ───────────────────────────────────────────────── */
 .price-tag{font-weight:var(--fw-semibold);color:var(--clr-green);font-size:var(--fs-sm)}

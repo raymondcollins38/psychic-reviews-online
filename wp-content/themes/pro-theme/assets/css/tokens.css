@@ -1,25 +1,48 @@
 :root {
-    --clr-bg: #0B1120;
-    --clr-surface: #131C30;
-    --clr-surface-hover: #1B2840;
-    --clr-border: #253552;
-    --clr-gold: #10B981;
-    --clr-gold-bright: #34D399;
-    --clr-accent: #059669;
-    --clr-text: #F0FDF4;
-    --clr-muted: #86EFAC;
-    --clr-dim: #6B7280;
-    --clr-green: #10B981;
-    --clr-red: #EF4444;
-    --ff-heading: 'Manrope', system-ui, sans-serif;
-    --ff-body: 'Manrope', system-ui, sans-serif;
+    /* ── New "Psychic Reviews" design system (light) ───────────────
+       Token NAMES are kept stable so every existing component re-themes. */
+
+    /* New-design palette aliases */
+    --deep: #181232;
+    --deep-2: #241a4d;
+    --gold: #c9a25c;
+    --gold-soft: #e7d3a6;
+    --cta: #5a3ec8;
+    --cta-dark: #46309e;
+    --ink: #1d1726;
+    --offwhite: #faf7f1;
+
+    /* Core tokens (remapped to light theme) */
+    --clr-bg: #faf7f1;            /* page background */
+    --clr-surface: #ffffff;       /* cards */
+    --clr-surface-hover: #f7f5ef;
+    --clr-border: #ece7df;
+    --clr-gold: #c9a25c;          /* accent: ratings, eyebrows, badges */
+    --clr-gold-bright: #b08436;   /* gold hover on light */
+    --clr-accent: #5a3ec8;        /* CTA purple: links, active states */
+    --clr-accent-bright: #46309e;
+    --clr-text: #1d1726;          /* primary text */
+    --clr-muted: #6f6880;         /* secondary text */
+    --clr-dim: #9a93a8;           /* tertiary text */
+    --clr-green: #2f7a4f;
+    --clr-red: #c2542e;
+
+    /* Tokens used by the rich review template */
+    --clr-primary: #181232;
+    --clr-primary-soft: #241a4d;
+    --clr-primary-ink: #5a3ec8;
+    --clr-primary-tint: rgba(90,62,200,0.07);
+
+    /* Typography */
+    --ff-heading: 'Newsreader', Georgia, serif;
+    --ff-body: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
     --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600; --fw-bold: 700; --fw-black: 800;
     --fs-xs: 0.6875rem; --fs-sm: 0.8125rem; --fs-base: 0.9375rem;
     --fs-lg: 1.0625rem; --fs-xl: 1.25rem; --fs-2xl: 1.5rem;
     --fs-3xl: 2rem; --fs-4xl: 2.5rem; --fs-5xl: 3.25rem;
     --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:20px;--sp-6:24px;--sp-8:32px;--sp-10:40px;--sp-12:48px;--sp-16:64px;--sp-20:80px;
     --max-w: 1180px; --max-w-narrow: 720px; --gutter: 20px;
-    --r-sm:4px;--r-md:8px;--r-lg:12px;--r-xl:16px;--r-2xl:24px;--r-full:9999px;
-    --shadow-card: 0 1px 3px rgba(0,0,0,0.4), 0 0 0 1px var(--clr-border);
+    --r-sm:6px;--r-md:10px;--r-lg:14px;--r-xl:18px;--r-2xl:24px;--r-full:9999px;
+    --shadow-card: 0 4px 16px -10px rgba(24,18,50,0.25), 0 0 0 1px var(--clr-border);
     --ease: cubic-bezier(0.4,0,0.2,1); --dur: 200ms;
 }
